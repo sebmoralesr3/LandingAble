@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-semibold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-heavy.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-semibolditalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-bolditalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Torus Pro";
+  src: url("/fonts/torus-pro-heavyitalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 800 900;
+  font-display: swap;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Torus Pro", Avenir, sans-serif;
+  font-synthesis: none;
+}
+
+.signal-button {
+  font-family: "Torus Pro", Avenir, sans-serif;
+}
+
+/* Torus Pro Heavy para los titulares de impacto del diseño. */
+.hero-copy h1,
+.about-title,
+.pillars-heading h2,
+.pillar-detail h3,
+.model-heading h2,
+.journey-section h2,
+.manifest h2 {
+  font-weight: 800;
+}
+
+/* Los textos descriptivos conservan el peso regular. */
+.hero-lead,
+.about-content,
+.pillar-copy,
+.model-heading strong,
+.activa-panel p {
+  font-weight: 400;
+}
