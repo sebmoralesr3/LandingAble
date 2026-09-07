@@ -1,0 +1,12 @@
+.prevention-section{width:100%;overflow:hidden;color:#fff;background:linear-gradient(180deg,#493bbb 0%,#252265 100%)}
+.prevention-inner{position:relative;width:min(100%,995px);height:904px;margin-inline:auto}
+.prevention-label{position:absolute;top:120px;left:57px;margin:0;color:#ffb62b;font-size:15px;font-weight:700;line-height:18px;letter-spacing:1.44px}
+.prevention-title{position:absolute;top:158px;left:55px;width:390px;margin:0;color:#fff;font-size:49.75px;font-weight:700;line-height:1;letter-spacing:-1px}
+.prevention-title span{color:#ffb62b}
+.prevention-lead{position:absolute;top:168px;left:518px;width:420px;margin:0;color:#fff;font-size:18px;font-weight:600;line-height:1.8}
+.prevention-cards{position:absolute;top:387px;right:24px;left:24px;display:grid;height:397px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.prevention-cards article{overflow:hidden;padding:41px 33px 32px;border:1px solid rgba(255,255,255,.08);border-top:3px solid #ffb62b;background:rgba(255,255,255,.08)}
+.prevention-cards article:first-child{border-radius:24px 0 0 24px}.prevention-cards article:last-child{border-radius:0 24px 24px 0}
+.prevention-cards b{color:#ffb62b;font-size:15px;line-height:18px}.prevention-cards h3{margin:8px 0 17px;color:#fff;font-size:28px;font-weight:700;line-height:31px}
+.prevention-cards p{margin:0;color:rgba(255,255,255,.92);font-size:15px;font-weight:400;line-height:25.5px}
+@media(max-width:800px){.prevention-inner{height:auto;padding:72px 24px}.prevention-label,.prevention-title,.prevention-lead,.prevention-cards{position:static;width:auto}.prevention-title{margin:20px 0 28px;font-size:clamp(42px,12vw,58px)}.prevention-lead{font-size:17px;line-height:1.7}.prevention-cards{height:auto;margin-top:48px;grid-template-columns:1fr;gap:12px}.prevention-cards article{padding:30px;border-radius:18px!important}}

@@ -1,0 +1,83 @@
+@media (min-width: 801px) {
+  .pillars-inner {
+    display: grid;
+    width: min(100%, 1448px);
+    height: 100svh;
+    min-height: 760px;
+    max-height: 1000px;
+    padding: 28px 38px 32px;
+    grid-template-rows: minmax(270px, 34%) auto minmax(330px, 1fr);
+  }
+
+  .pillars-heading {
+    min-height: 0;
+  }
+
+  .pillars-label {
+    margin-bottom: 25px;
+    font-size: 13px;
+  }
+
+  .pillars-heading h2 {
+    font-size: clamp(43px, 3.6vw, 54px);
+  }
+
+  .pillars-heading img {
+    width: min(100%, 590px);
+    max-height: 340px;
+    transform: translateY(40px);
+  }
+
+  .pillars-tabs {
+    padding: 6px;
+    border-radius: 18px;
+    margin-top: 20px;
+  }
+
+  .pillars-tabs button {
+    padding: 13px 12px;
+    font-size: 16px;
+  }
+
+  .pillar-detail {
+    min-height: 0;
+    gap: 42px;
+    margin-top: 16px;
+  }
+
+  .pillar-detail article {
+    align-self: stretch;
+    min-height: 0;
+    padding: 42px 58px;
+    border-radius: 32px;
+  }
+
+  .pillar-icon {
+    width: 62px;
+    height: 62px;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+
+  .pillar-detail h3 {
+    margin-top: 30px;
+    font-size: 48px;
+  }
+
+  .pillar-detail strong {
+    font-size: 17px;
+  }
+
+  .pillar-detail article > b {
+    font-size: 105px;
+  }
+
+  .pillar-copy p {
+    font-size: clamp(19px, 1.55vw, 24px);
+    line-height: 1.65;
+  }
+
+  .pillar-dots {
+    margin-top: 28px;
+  }
+}
